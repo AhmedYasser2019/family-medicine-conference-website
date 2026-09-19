@@ -37,7 +37,7 @@ function Index() {
             <span className="size-2 animate-pulse rounded-full bg-accent-cyan" />
             {t(conference.datesLabel)} · {t(conference.venue)}
           </div>
-          <h1 className="mt-5 font-display text-[40px] font-bold leading-[1.05] tracking-tight sm:text-[62px]">
+          <h1 className="mt-5 font-display text-[40px] font-bold leading-[1.28] sm:text-[62px] ltr:tracking-tight ltr:leading-[1.05]">
             {t({ ar: "المؤتمر الدولي", en: "The International" })}
             <br />
             <span className="text-gradient-brand">
